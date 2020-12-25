@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
     <head>
         <title>Web</title>
         <meta charset="utf-8">
@@ -24,16 +24,28 @@
                border-right: 1px solid black;
                width: 100px;
                margin: 0;
-               padding: 60px;
+               padding: 50px;
             }
-
+            #grid {
+                display: grid;
+                grid-template-columns: 150px 1fr;
+            }
+            #str {
+                padding-left: 80px;
+                padding-top: 20px;
+            }
         </style>
     </head>
     <body>
         <h1>WEB</h1>
-        <ul>
-            <li><a title="HyperText Markup Language">HTML</a></li>
-            <li>CSS</li>
-        </ul>
+        <div id = "grid">
+            <ul>
+                <li><a title="HyperText Markup Language">HTML</a></li>
+                <li><a title="Cascading Style Sheets">CSS</a></li>
+            </ul>
+            <div id = "str">
+                아무거나 할건데 뭐 할까요? 심심해여
+            </div>
+        </div>
     </body>
 </html>
