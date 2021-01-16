@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+h1 {
+    font-size: 70px;
+    text-align: center;
+    font-weight: 100;
+    border-bottom: 1px solid black;
+    padding: 30px;
+    margin: 10px;
+}
+ul {
+   font-size: 20px;
+   border-right: 1px solid black;
+   width: 100px;
+   margin: 0;
+   padding: 50px;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+#str {
+    padding-left: 80px;
+    padding-top: 20px;
+}
