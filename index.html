@@ -1,20 +1,76 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <title>Web</title>
-        <meta charset="utf-8">
-        <link href="Css.css">
-    </head>
-    <body>
-        <h1>WEB</h1>
-        <div id = "grid">
-            <ul>
-                <li><a title="HyperText Markup Language">HTML</a></li>
-                <li><a title="Cascading Style Sheets">CSS</a></li>
-            </ul>
-            <div id = "str">
-                아무거나 할건데 뭐 할까요? 심심해여
-            </div>
-        </div>
-    </body>
+<head>
+<meta charset="utf-8"/>
+<title>LIGWA</title>
+<style>
+	#main {
+    	display: grid;
+    	grid-template-columns: 3fr 1fr;
+		min-height: 500px;  
+    	margin-right: 10px; 
+	}
+	#wait_1 {
+		opacity: 0.5;
+		mix-blend-mode: overlay;
+		filter: drop-shadow(10px 10px 6px rgba(0, 0, 0, 0.839));
+		position: absolute;
+		width: 150px;
+		height: 150px;
+		left: 635px;
+		top: 465px;
+		overflow: visible;
+	}
+	#e {
+		filter: drop-shadow(10px 10px 3px rgba(0, 0, 0, 0.839));
+		position: absolute;
+		width: 150px;
+		height: 150px;
+		left: 885px;
+		top: 465px;
+		overflow: visible;
+	}
+	#wait_2 {
+		opacity: 0.5;
+		mix-blend-mode: overlay;
+		filter: drop-shadow(10px 10px 6px rgba(0, 0, 0, 0.839));
+		position: absolute;
+		width: 150px;
+		height: 150px;
+		left: 1135px;
+		top: 465px;
+		overflow: visible;
+	}
+	#E_link {
+		filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 1));
+		left: 927px;
+		top: 645px;
+		position: absolute;
+		overflow: visible;
+		width: 68px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Noto Sans KR;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+</style>
+</head>
+<body>
+<div id="main">
+	<div id="index">
+		<img id="wait_1" src="wait_1.png" srcset="image\wait_1.png">
+			
+		<img id="e" src="e.png" srcset="image\e.png">
+			
+		<img id="wait_2" src="wait_2.png" srcset="image\wait_2.png">
+			
+		<div id="E_link">
+			<a href="https://cls7.edunet.net/cyber/cm/mcom/pmco000b00.do">E학습터</a>
+		</div>
+	</div>
+</div>
+</body>
 </html>
