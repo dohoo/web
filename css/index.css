@@ -4,7 +4,7 @@ body {
 .index {
     width: 100vw;
     height: 100vh;
-    background: pink;
+    background: white;
 }
 #content {
     position: absolute;
@@ -23,7 +23,7 @@ body {
     overflow: visible;
 } */
 #e {
-    filter: drop-shadow(10px 10px 3px rgba(0, 0, 0, 0.839));
+    /* filter: drop-shadow(10px 10px 3px rgba(0, 0, 0, 0.839)); */
     height: 150px;
     width: 150px;
     /* position: absolute;
